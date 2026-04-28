@@ -3,72 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AHSEC Result 2026 | Valuable Tech Support</title>
+    <title>Valuable Tech | AHSEC HS Result 2026</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ff9d00'><path d='M13 10V3L4 14h7v7l9-11h-7z'/></svg>">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
     <style>
-        :root { --latest: #ff9d00; --dark-bg: #030712; }
-        body { 
-            font-family: 'Plus Jakarta Sans', sans-serif; 
-            background-color: var(--dark-bg); 
-            color: #ffffff; 
-            min-height: 100vh; 
-            display: flex; 
-            align-items: center; 
-            justify-content: center; 
-            padding: 20px; 
-            margin: 0;
-            overflow: hidden;
-        }
-        .hero-glow { 
-            position: absolute; 
-            top: 50%; 
-            left: 50%; 
-            transform: translate(-50%, -50%); 
-            width: 100%; 
-            height: 100%; 
-            background: radial-gradient(circle at 50% 50%, rgba(255, 157, 0, 0.1) 0%, transparent 70%); 
-            z-index: -1; 
-        }
-        .message-card {
-            text-align: center;
-            padding: 3rem;
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid rgba(255, 157, 0, 0.2);
-            border-radius: 32px;
-            max-width: 500px;
-            width: 100%;
-            backdrop-filter: blur(10px);
-        }
+        :root { --primary: #ff9d00; --dark-bg: #030712; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: var(--dark-bg); color: #ffffff; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; position: relative; overflow: hidden; margin: 0; }
+        .hero-glow { position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 100%; height: 600px; background: radial-gradient(circle at 50% 0%, rgba(255, 157, 0, 0.15) 0%, transparent 70%); z-index: -1; }
+        .neon-card { position: relative; z-index: 0; overflow: hidden; border-radius: 32px; padding: 2px; width: 100%; max-width: 420px; animation: neon-pulse 3s ease-in-out infinite alternate; }
+        @keyframes neon-pulse { from { box-shadow: 0 0 10px rgba(255, 157, 0, 0.2); } to { box-shadow: 0 0 25px rgba(255, 157, 0, 0.6); } }
+        .neon-card::before { content: ''; position: absolute; z-index: -1; top: -50%; left: -50%; width: 200%; height: 200%; background: conic-gradient(transparent, #ff9d00, transparent, #ff9d00, transparent); animation: rotate-border 10s linear infinite; }
+        @keyframes rotate-border { 100% { transform: rotate(360deg); } }
+        .card-inner { background: #030712; border-radius: 30px; padding: 3rem; width: 100%; height: 100%; }
+        .input-style { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); color: white; transition: all 0.3s ease; }
+        .input-style:focus { border-color: var(--primary); outline: none; box-shadow: 0 0 15px rgba(255, 157, 0, 0.2); }
     </style>
 </head>
 <body class="antialiased">
     <div class="hero-glow"></div>
+    <div class="neon-card">
+        <div class="card-inner text-center">
+            <div class="flex items-center justify-center space-x-2 mb-10">
+                <div class="w-9 h-9 bg-orange-500 rounded-lg flex items-center justify-center shadow-[0_0_15px_rgba(255,157,0,0.5)]">
+                    <svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <span class="font-extrabold text-xl tracking-tighter uppercase italic text-white">Valuable<span class="text-orange-400">Tech Support</span></span>
+            </div>
 
-    <div class="message-card">
-        <div class="w-16 h-16 bg-orange-500/10 text-orange-500 rounded-2xl flex items-center justify-center mx-auto mb-8 shadow-[0_0_30px_rgba(255,157,0,0.2)]">
-            <svg class="w-10 h-10 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+            <h1 class="text-sm font-bold mb-8 text-gray-500 tracking-[0.3em] uppercase">AHSEC HS Result 2026</h1>
+
+            <form action="https://results.ahsecregistration.in/as/ahsec/class-12th-exam-result-2026-ahsec/result.asp" method="GET" class="text-left">
+                <div class="mb-6">
+                    <label class="block text-[10px] font-black uppercase tracking-widest text-gray-600 mb-2 ml-1">Enter Roll</label>
+                    <input type="text" name="roll" maxlength="4" placeholder="Type 4 Digit Roll" required autofocus class="input-style w-full px-5 py-4 rounded-xl font-bold text-white">
+                </div>
+
+                <div class="mb-8">
+                    <label class="block text-[10px] font-black uppercase tracking-widest text-gray-600 mb-2 ml-1">Enter Number</label>
+                    <input type="text" name="number" maxlength="5" placeholder="Type 5 Digit No" required class="input-style w-full px-5 py-4 rounded-xl font-bold text-white">
+                </div>
+
+                <button type="submit" class="w-full bg-orange-500 text-black py-5 rounded-xl font-black text-sm uppercase tracking-widest hover:bg-white transition-all shadow-[0_15px_30px_rgba(255,157,0,0.3)] mb-4">
+                    View Marksheet
+                </button>
+            </form>
+
+            <p class="text-gray-600 text-[9px] uppercase font-bold tracking-widest mb-6">
+                To check another result, click back in your browser.
+            </p>
+
+            <div class="pt-4 border-t border-white/5">
+                <a href="index.html" class="text-gray-700 text-[10px] font-bold uppercase tracking-widest hover:text-orange-400 transition">← Back to Home</a>
+            </div>
         </div>
-
-        <h1 class="text-3xl font-extrabold mb-4 tracking-tight">AHSEC Result 2026</h1>
-        <p class="text-orange-400 font-bold uppercase tracking-widest text-xs mb-8 bg-orange-400/10 py-2 px-4 rounded-full inline-block">
-            Result Not Yet Declared
-        </p>
-        
-        <p class="text-gray-500 text-sm leading-relaxed mb-10">
-            The Assam Higher Secondary Education Council (AHSEC) has not released the Class 12 results yet. Please check back later or follow official notifications.
-        </p>
-
-        <a href="index.html" class="inline-flex items-center gap-2 bg-white text-black px-8 py-4 rounded-2xl font-black text-sm uppercase tracking-widest hover:bg-orange-500 hover:text-white transition-all duration-300">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path d="M10 19l-7-7m0 0l7-7m-7 7h18" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            Back to Home
-        </a>
     </div>
-
 </body>
 </html>
